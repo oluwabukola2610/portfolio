@@ -34,7 +34,7 @@ const Projects = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 text-black gap-2 md:gap-5 lg:gap-7">
             <div className="group relative block h-[320px] ">
-              <div className="relative flex md:h-[310px] h-[260px] transform items-end border-2 bg-white bg-project bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
+              <div className="relative rounded-lg flex md:h-[310px] h-[260px] transform items-end border-2 bg-white bg-project bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
                 <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                   <h2 className="mt-4 text-sm font-medium ">
                     The classic vegie is a landing page with functionality where
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
 
             <div className="group relative block h-[320px] ">
-              <div className="relative flex md:h-[310px] h-[260px] transform items-end border-2 bg-white border-black bg-project2 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
+              <div className="relative rounded-lg flex md:h-[310px] h-[260px] transform items-end border-2 bg-white  bg-project2 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
                 <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                   <h2 className="mt-4 text-md font-secondary font-medium ">
                     This project is the landing page clone of Webgpt which i
@@ -83,7 +83,7 @@ const Projects = () => {
             </div>
 
             <div className="group relative block h-[320px] ">
-              <div className="relative flex md:h-[310px] h-[260px] transform items-end border-2 bg-white border-black bg-project3 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
+              <div className="relative rounded-lg flex md:h-[310px] h-[260px] transform items-end border-2 bg-white bg-project3 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
                 <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                   <h2 className="mt-4 text-md font-medium  font-secondary">
                     This is a fitness landing page designed and deploy with
@@ -107,7 +107,7 @@ const Projects = () => {
             </div>
 
             <div className="group relative block h-[320px] ">
-              <div className="relative flex md:h-[310px] h-[260px] transform items-end border-2 bg-white border-black bg-project4 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
+              <div className="relative rounded-lg flex md:h-[310px] h-[260px] transform items-end border-2 bg-white bg-project4 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
                 <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                   <h2 className="mt-4 text-sm font-medium font-secondary">
                     Multi page ecommerce Website Buit with Html,Css and
@@ -133,7 +133,7 @@ const Projects = () => {
             </div>
 
             <div className="group relative block h-[320px] ">
-              <div className="relative flex md:h-[300px] h-[250px] transform items-end border-2 bg-white border-black bg-project5 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
+              <div className="relative rounded-lg flex md:h-[300px] h-[250px] transform items-end border-2 bg-white bg-project5 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
                 <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                   <h2 className="mt-4 text-xl font-medium sm:text-2xl">
                     Go around the world
