@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+ 
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+}
+
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #6a7bba 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.active {
+  color: #fff;
+  padding: .5rem;
+  border-radius: 100%;
+}
+.bg{
+  /* clip-path: circle(50% at 50% 50%); */
+    width: 330px;
+  height: 330px;
+  object-position:top;
+  object-fit: cover;
+  outline: none;
+  /* border-radius: 50%; */
+}
+
+@layer base{
+  html {
+      font-family: 'Raleway', sans-serif;
+  }
+  .section {
+    @apply  lg:py-36 lg:h-screen  ;
+    }
+  
+     .btn-lg {
+        @apply h-[56px] px-10 text-base;
+      }
+     
+      .btn {
+        @apply rounded-full text-white font-medium;
+      }
+      .btn-sm {
+        @apply h-[40px] px-6 text-sm;
+      }
+    
+}
+
+
+
+
