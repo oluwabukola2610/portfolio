@@ -11,7 +11,7 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
         </h1>
-        <div className="grid grid-cols-1 space-y-6 md:grid-cols-2 md:space-x-6 lg:space-x-24 mt-5 items-center  ">
+        <div className="grid grid-cols-1 space-y-6 md:grid-cols-2 md:gap-x-8 lg:gap-x-28 mt-5 items-center  ">
           <motion.div
             variants={fadeIn("right", 0.4)}
             initial="hidden"
@@ -22,7 +22,7 @@ const About = () => {
             <h2 className="capitalize font-primary text-white/70 font-bold text-2xl border-accent border-b-2 p-2 inline">
               About me
             </h2>
-            <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-serif">
+            <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-sans">
               A Front-end Web Developer based in Lagos with 1 year of experience
               in the field. Although I started my career in the field of
               Chemistry, But my true passion lay in the realm of technology and
@@ -40,7 +40,6 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]">
-          
               <img src={bg} alt="" className="rounded-2xl bg " />
           </motion.div>
           <motion.div

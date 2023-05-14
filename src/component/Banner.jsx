@@ -11,8 +11,8 @@ const Banner = () => {
       className="min-h-[85vh] lg:min-h-[75vh] flex items-center lg:max-w-[1640px]"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-6 lg:flex-row items-center lg:gap-x-12">
-          <div className="flex-1 text-center lg:text-left  ">
+        <div className="flex flex-col gap-y-6 lg:flex-row items-center lg:gap-x-20">
+          <div className="flex-1 text-center lg:text-justify max-w-md  ">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -40,7 +40,7 @@ const Banner = () => {
             >
               As a skilled front-end developer, I am dedicated to turning ideas
               into innovative web applications and delivering high-quality
-              results.Explore my latest projects and articles, showcasing my
+              results. Explore my latest projects and articles, showcasing my
               expertise in React.js and web development.
             </motion.p>
             <div className="items-center flex justify-center lg:justify-start mb-12 mx-auto lg:mx-0">

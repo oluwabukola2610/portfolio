@@ -8,7 +8,7 @@ const Social = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={20} />
+          LinkedIn <FaLinkedin size={25} />
         </>
       ),
       href: "linkedin.com/in/mudashir-roheemoh-74127824b",
@@ -18,7 +18,7 @@ const Social = () => {
       id: 2,
       child: (
         <>
-          Github <FaGithub size={20} />
+          Github <FaGithub size={25} />
         </>
       ),
       href: "https://github.com/oluwabukola2610",
@@ -27,7 +27,7 @@ const Social = () => {
       id: 3,
       child: (
         <>
-          Mail <FiMail size={20} />
+          Mail <FiMail size={25} />
         </>
       ),
       href: "mailto:roheemohmudashir@gmail.com",
@@ -36,7 +36,7 @@ const Social = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={20} />
+          Resume <BsFillPersonLinesFill size={25} />
         </>
       ),
       href: "/public/ROHEEMOH_MUDASHIR_Resume_23-04-2023-07-58-47.pdf",
