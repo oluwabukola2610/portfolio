@@ -6,7 +6,7 @@ import { fadeIn } from "../../variant";
 
 const About = () => {
   return (
-    <div id="about" className="md:py-10  px-4 flex items-center">
+    <div id="about" className="md:py-10  px-4 flex items-center lg:max-w-[1640px]">
       <div className="container mx-auto">
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
@@ -22,7 +22,7 @@ const About = () => {
             <h2 className="capitalize font-primary text-white/70 font-bold text-2xl border-accent border-b-2 p-2 inline">
               About me
             </h2>
-            <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify">
+            <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-serif">
               A Front-end Web Developer based in Lagos with 1 year of experience
               in the field. Although I started my career in the field of
               Chemistry, But my true passion lay in the realm of technology and

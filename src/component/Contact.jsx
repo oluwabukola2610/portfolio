@@ -5,7 +5,7 @@ import contact from "../assets/contact-img (1).svg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="py-16 px-4 flex items-center mb-12 lg:mb-0">
+    <div id="contact" className="py-16 px-4 flex items-center mb-12 lg:max-w-[1640px] lg:mb-0">
       <div className="container mx-auto">
         <div className="flex flex-col justify-center items-center lg:space-x-12 space-y-9 lg:flex-row">
         <motion.div

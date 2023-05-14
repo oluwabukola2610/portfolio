@@ -51,7 +51,7 @@ const Social = () => {
           <li
             key={link.id}
             className={
-              "flex items-center  w-28 h-10 px-3 ml-[-74px] hover:ml-[-4px] hover:rounded-md duration-300 bg-black/20 backdrop-blur-2xl" +
+              "flex items-center w-28 h-10 px-3 ml-[-74px] hover:ml-[-4px] hover:rounded-md duration-300 bg-black/20 backdrop-blur-2xl" +
               " " +  link.style
             }
           >

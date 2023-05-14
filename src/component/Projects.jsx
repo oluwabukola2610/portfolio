@@ -4,7 +4,7 @@ import { fadeIn } from "../../variant";
 
 const Projects = () => {
   return (
-    <div id="project" className="py-12 px-4 flex items-center text-white ">
+    <div id="project" className="py-12 px-4 flex items-center text-white lg:max-w-[1640px]">
       <div className="mx-auto container">
         <div className="space-y-6 md:space-y-10">
           <div className="flex flex-col items-center gap-4">
@@ -131,7 +131,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

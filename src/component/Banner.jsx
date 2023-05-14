@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-[85vh] lg:min-h-[75vh] flex items-center"
+      className="min-h-[85vh] lg:min-h-[75vh] flex items-center lg:max-w-[1640px]"
     >
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-6 lg:flex-row items-center lg:gap-x-12">

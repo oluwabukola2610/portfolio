@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <header className="py-5">
+    <header className="py-5 lg:max-w-[1640px]">
       <div className="flex justify-center items-center w-full h-16  ">
         <motion.a
           href="#home"

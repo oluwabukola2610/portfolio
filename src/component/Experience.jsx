@@ -43,7 +43,7 @@ const Experience = () => {
     },
   ];
   return (
-    <section id="skills" className="py-14 px-4 flex items-center ">
+    <section id="skills" className="py-14 px-4 flex items-center lg:max-w-[1640px] ">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 text-white/90 gap-7">
           <div className="">
