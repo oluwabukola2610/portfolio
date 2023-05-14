@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div id="project" className="py-12 px-4 flex items-center text-white ">
       <div className="mx-auto container">
-        <div className="space-y-6">
+        <div className="space-y-6 md:space-y-10">
           <div className="flex flex-col items-center gap-4">
             <motion.p
               variants={fadeIn("down", 0.3)}
