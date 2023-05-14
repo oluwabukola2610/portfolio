@@ -36,7 +36,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg text-xl font-secondary md:text-2xl lg:text-xl mx-auto lg:mx-0 text-white/60"
+              className="mb-8 max-w-lg text-xl font-sans md:text-2xl lg:text-xl mx-auto lg:mx-0 text-white/80"
             >
               As a skilled front-end developer, I am dedicated to turning ideas
               into innovative web applications and delivering high-quality

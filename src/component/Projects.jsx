@@ -131,24 +131,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-
-            <div className="group relative block h-[320px] ">
-              <div className="relative rounded-lg flex md:h-[300px] h-[250px] transform items-end border-2 bg-white bg-project5 bg-no-repeat bg-contain transition-transform group-hover:scale-105 group-hover:opacity-70">
-                <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
-                  <h2 className="mt-4 text-xl font-medium sm:text-2xl">
-                    Go around the world
-                  </h2>
-                </div>
-                <div className="absolute p-4  opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8 z-10 ">
-                  <a target="_blank" rel="noreferrer" href="">
-                    <BsFillPlayCircleFill
-                      size={40}
-                      className="text-center text-accent/60"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ const Social = () => {
               rel='noreferrer'
               download={link.download}
               href={link.href}
-              className="flex justify-between  items-center w-full text-white/70"
+              className="flex justify-between  items-center w-full text-white"
             >
               {link.child}
             </a>

@@ -39,9 +39,9 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className=" hidden lg:flex relative border-2 border-accent/50  p-6 rounded-2xl h-max border-solid border-r-[12px]"
-          >
-            <img src={bg} alt="" className="bg rounded-3xl" />
+            className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]">
+          
+              <img src={bg} alt="" className="rounded-2xl bg " />
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.4)}
@@ -50,7 +50,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className=" lg:hidden  max-w-[320px] lg:max-w-[480px] "
           >
-            <div className="relative border-2 border-accent/50  p-4 rounded-2xl h-max border-solid border-r-[12px]">
+            <div className="relative border-2 border-accent/50  p- rounded-2xl h-max border-solid border-r-[12px]">
               <img src={me} alt="" className="rounded-3xl bg " />
             </div>
           </motion.div>
