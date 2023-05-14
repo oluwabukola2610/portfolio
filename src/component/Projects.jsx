@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="space-y-6 md:space-y-10">
           <div className="flex flex-col items-center gap-4">
             <motion.p
-              variants={fadeIn("down", 0.3)}
+              variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
