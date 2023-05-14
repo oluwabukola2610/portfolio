@@ -7,7 +7,7 @@ const Navbar = () => {
         <motion.a
           href="#home"
           className="border-2 border-white/70 cursor-pointer font-signature rounded-xl bg-accent/30 text-white/80 p-2 flex justify-center items-center  text-2xl font-bold  "
-          whileHover={{
+          whileInView={{
             backgroundColor: [
               "#121212",
               "#B809C3",
