@@ -11,7 +11,7 @@ const Social = () => {
           LinkedIn <FaLinkedin size={25} />
         </>
       ),
-      href: "linkedin.com/in/mudashir-roheemoh-74127824b",
+      href: "https://www.linkedin.com/in/mudashir-roheemoh-74127824b/",
       style: "rounded-tr-md",
     },
     {

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <header className="py-5 lg:max-w-[1640px]" >
-      <div className="flex justify-center items-center w-full h-16  ">
+    <header className="py-5 mx-auto container" >
+      <div className="flex justify-center lg:justify-start items-center w-full h-16  ">
         <motion.a
           href="#home"
           className="border-2 border-white/70 cursor-pointer font-signature rounded-xl bg-accent/30 text-white/80 p-2 flex justify-center items-center  text-2xl font-bold  "
@@ -21,8 +21,7 @@ const Navbar = () => {
             transition: { duration: 1, repeat: Infinity },
           }}
         >
-          Bukky&#x27;s
-          Code
+          M.R
         </motion.a>
       </div>
     </header>
