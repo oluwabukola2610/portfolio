@@ -121,7 +121,7 @@ const Experience = () => {
             <div className="p-4 bg-accent/80 backdrop-blur-2xl flex-col flex space-y-8 mt-5">
               <div className="space-y-3">
                 <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">React/Js</span>
+                  <span className="text-base font-medium ">React/Js/Ts</span>
                   <span className="text-sm font-medium">85%</span>
                 </div>
                 <div className="w-full bg-gray-300 rounded-full h-2.5 ">
