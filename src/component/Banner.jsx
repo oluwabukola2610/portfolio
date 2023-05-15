@@ -15,14 +15,14 @@ const Banner = () => {
       id: 1,
       child: (
         
-           <FaLinkedin size={25} />
+           <FaLinkedin size={30} />
       ),
       href: "linkedin.com/in/mudashir-roheemoh-74127824b",
     },
     {
       id: 2,
       child: (
-           <FaGithub size={25} />
+           <FaGithub size={30} />
       ),
       href: "https://github.com/oluwabukola2610",
     },
@@ -30,14 +30,14 @@ const Banner = () => {
       id: 3,
       child: (
 
-           <FiMail size={25} />
+           <FiMail size={30} />
       ),
       href: "mailto:roheemohmudashir@gmail.com",
     },
     {
       id: 4,
       child: (
-           <BsFillPersonLinesFill size={25} />
+           <BsFillPersonLinesFill size={30} />
       ),
       href: "/public/ROHEEMOH_MUDASHIR_Resume_23-04-2023-07-58-47.pdf",
       download: true,
@@ -111,10 +111,14 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-             className="md:hidden flex justify-center pt-5 space-x-12 text-accent">
+             className="md:hidden flex justify-center pt-5 space-x-12 text-[#a42086]">
               {links.map((data) => (
                 <div key={data.id}>
-                  <a href={data.href}>{data.child}</a>
+                  <a href={data.href}
+                  target="_blank"
+                  rel='noreferrer'
+                  download={data.download}
+                  >{data.child}</a>
                 </div>
               ))}
             </motion.div>
