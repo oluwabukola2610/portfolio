@@ -18,6 +18,9 @@ const Contact = () => {
             </p>{" "}
             <img src={contact} alt="" />
           </motion.div>
+          
+         {/* form */}
+
           <form
             action="https://getform.io/f/bc8a3574-0432-490a-80a4-8d93d3d8c55e"
             method="POST"

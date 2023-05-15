@@ -6,12 +6,16 @@ import { fadeIn } from "../../variant";
 
 const About = () => {
   return (
-    <div id="about" className="md:py-10  px-4 flex items-center lg:max-w-[1640px]">
+    <div
+      id="about"
+      className="md:py-10 py-3 px-4 flex items-center lg:max-w-[1640px]"
+    >
       <div className="container mx-auto">
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
         </h1>
         <div className="grid grid-cols-1 space-y-6 md:grid-cols-2 md:gap-x-8 lg:gap-x-28 mt-5 items-center  ">
+          {/* about me text */}
           <motion.div
             variants={fadeIn("right", 0.4)}
             initial="hidden"
@@ -34,14 +38,19 @@ const About = () => {
               bring my clients visions to life.
             </p>
           </motion.div>
+
+          {/* image for desktop */}
           <motion.div
             variants={fadeIn("left", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]">
-              <img src={bg} alt="" className="rounded-2xl bg " />
+            className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]"
+          >
+            <img src={bg} alt="" className="rounded-2xl bg " />
           </motion.div>
+
+          {/* image for mobile view */}
           <motion.div
             variants={fadeIn("left", 0.4)}
             initial="hidden"

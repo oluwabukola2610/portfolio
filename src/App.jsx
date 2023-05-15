@@ -15,11 +15,9 @@ const App = () => {
       <Social />
       <Nav />
       <About />
-      {/* <Skills /> */}
       <Experience />
       <Projects />
       <Contact />
-      {/* <div className="h-[4000px]"></div> */}
     </div>
   );
 };

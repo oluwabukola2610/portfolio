@@ -71,7 +71,7 @@ const Projects = () => {
               collaborate and push the boundaries of creativity.
             </motion.p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 text-black gap-2 md:gap-x-5 lg:gap-x-7">
+          <div className="flex flex-col lg:m-10 gap-6 md:grid md:grid-cols-2 text-black ">
             {works.map((project) => (
               <div
                 key={project.id}

@@ -43,15 +43,19 @@ const Experience = () => {
     },
   ];
   return (
-    <section id="skills" className="py-14 px-4 flex items-center lg:max-w-[1640px] ">
+    <section
+      id="skills"
+      className="py-14 px-4 flex items-center lg:max-w-[1640px] "
+    >
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 text-white/90 gap-7">
+          {/* education */}
           <div className="">
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }} 
+              viewport={{ once: false, amount: 0.7 }}
             >
               <p className="capitalize font-primary font-bold text-2xl">
                 Education
@@ -72,16 +76,19 @@ const Experience = () => {
             </div>
           </div>
 
+          {/* experience */}
           <div className="">
-          <motion.div
+            <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }} 
-            >            <p className="capitalize font-primary font-bold text-2xl">
-              Experience
-            </p>
-            <span className="border border-b-2 w-8 border-accent/70 inline-grid"></span>
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              {" "}
+              <p className="capitalize font-primary font-bold text-2xl">
+                Experience
+              </p>
+              <span className="border border-b-2 w-8 border-accent/70 inline-grid"></span>
             </motion.div>
             <div className="p-4 bg-black/5 backdrop-blur-2xl flex-col flex space-y-8 mt-5">
               {exp.map((data) => (
@@ -97,17 +104,18 @@ const Experience = () => {
             </div>
           </div>
 
+          {/* skills */}
           <div className="">
-          <motion.div
+            <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }} 
+              viewport={{ once: false, amount: 0.7 }}
             >
-            <p className="capitalize font-primary font-bold text-2xl">
-              My Skills
-            </p>
-            <span className="border border-b-2 w-8 border-accent/70 inline-grid"></span>
+              <p className="capitalize font-primary font-bold text-2xl">
+                My Skills
+              </p>
+              <span className="border border-b-2 w-8 border-accent/70 inline-grid"></span>
             </motion.div>
             <div className="p-4 bg-accent/80 backdrop-blur-2xl flex-col flex space-y-8 mt-5">
               <div className="space-y-3">
