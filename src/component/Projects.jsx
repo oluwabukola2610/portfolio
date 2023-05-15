@@ -26,7 +26,7 @@ const Projects = () => {
     {
       id: 3,
       img: project3,
-      text: "This is a fitness landing page designed and deploy with React,Js,Tailwind and React libries.",
+      text: "This is a fitness landing page designed and deploy with React, Js ,Tailwind and React libries.",
       name: "Elite fitness",
       link: "https://eliteshape.vercel.app/",
     },
