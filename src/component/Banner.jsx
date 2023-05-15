@@ -17,7 +17,7 @@ const Banner = () => {
         
            <FaLinkedin size={30} />
       ),
-      href: "linkedin.com/in/mudashir-roheemoh-74127824b",
+      href: "https://www.linkedin.com/in/mudashir-roheemoh-74127824b/",
     },
     {
       id: 2,
