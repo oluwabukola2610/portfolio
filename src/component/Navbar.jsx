@@ -21,7 +21,8 @@ const Navbar = () => {
             transition: { duration: 1, repeat: Infinity },
           }}
         >
-          M.R
+         Bukky&#x27;s
+          Code
         </motion.a>
       </div>
     </header>
