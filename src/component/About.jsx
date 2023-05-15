@@ -14,7 +14,7 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
         </h1>
-        <div className="grid grid-cols-1 space-y-6 md:grid-cols-2 md:gap-x-8 lg:gap-x-28 mt-5 items-center  ">
+        <div className="flex flex-col-reverse gap-y-8  md:grid md:grid-cols-2 md:gap-x-8 lg:gap-x-28 mt-5 items-center  ">
           {/* about me text */}
           <motion.div
             variants={fadeIn("right", 0.4)}

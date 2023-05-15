@@ -75,7 +75,7 @@ const Projects = () => {
             {works.map((project) => (
               <div
                 key={project.id}
-                className="bg-[#010105]/30 text-white/90 p-4 rounded-xl hover:scale-105 hover:opacity-6 "
+                className="bg-[#010105]/30 text-white/90 p-4 rounded-xl hover:scale-[1.04]  hover:shadow-accent/30 hover:shadow-lg duration-300 "
               >
                 <img
                   className="rounded mb-4"
