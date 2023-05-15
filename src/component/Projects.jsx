@@ -25,15 +25,15 @@ const Projects = () => {
 
     {
       id: 3,
-      img: project4,
+      img: project3,
       text: "This is a fitness landing page designed and deploy with React,Js,Tailwind and React libries.",
       name: "Elite fitness",
-      link: "https://web-gbt.vercel.app/",
+      link: "https://eliteshape.vercel.app/",
     },
 
     {
       id: 4,
-      img: project3,
+      img: project4,
       name: "Wemo Ecommerce",
       text: "Multi page ecommerce Website Buit with Html,Css and Javascript. In this website you can check for products,product details and have access to different pages on the site.",
       link: "https://wemo-ecommerce-12.vercel.app/",
