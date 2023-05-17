@@ -31,11 +31,7 @@ export default {
     },
     backgroundImage: {
       site: "url('./assets/site-bg.jpg')",
-      project:"url('./src/assets/portfolio/project.png')",
-      project2:"url('./src/assets/portfolio/project2.png')",
-      project3:"url('./src/assets/portfolio/project3.png')",
-      project4:"url('./src/assets/portfolio/project4.png')",
-      project5:"url('./src/assets/portfolio/project5.png')",
+    
     },
   },
   plugins: [],
