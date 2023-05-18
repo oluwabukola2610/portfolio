@@ -1,5 +1,12 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variant";
+import react from "../assets/react (1).svg";
+import typeS from "../assets/typescript.svg";
+import js from "../assets/javascript.svg";
+import git from "../assets/git.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import TailwindCss from "../assets/tailwind.svg";
 
 const Experience = () => {
   const sch = [
@@ -15,7 +22,7 @@ const Experience = () => {
       title: "Front-End Developer",
       place: "Nupat Technologies",
     },
-   
+
     {
       id: 3,
       year: 2022,
@@ -85,7 +92,6 @@ const Experience = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
             >
-              {" "}
               <p className="capitalize font-primary font-bold text-2xl">
                 Experience
               </p>
@@ -114,76 +120,55 @@ const Experience = () => {
               viewport={{ once: false, amount: 0.7 }}
             >
               <p className="capitalize font-primary font-bold text-2xl">
-                My Skills
+                Skills
               </p>
               <span className="border border-b-2 w-8 border-accent/70 inline-grid"></span>
             </motion.div>
             <div className="p-4 bg-accent/80 backdrop-blur-2xl flex-col flex space-y-8 mt-5">
               <div className="space-y-3">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">React/Js/Ts</span>
-                  <span className="text-sm font-medium">85%</span>
+                <div className="flex justify-between">
+                  <h2>React/Js</h2>
+                  <img src={react} alt="" className="h-6 w-6" />
                 </div>
-                <div className="w-full bg-gray-300 rounded-full h-2.5 ">
-                  <div
-                    className="bg-[#2e50cb] h-2.5 rounded-full"
-                    style={{ width: "85%" }}
-                  />
-                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">Html</span>
-                  <span className="text-sm font-medium">90%</span>
+                <div className="flex justify-between">
+                  <h2>JavaScript</h2>
+                  <img src={js} alt="" className="h-6 w-6" />
                 </div>
-                <div className="w-full bg-gray-300 rounded-full h-2.5 ">
-                  <div
-                    className="bg-[#2e50cb] h-2.5 rounded-full"
-                    style={{ width: "90%" }}
-                  />
-                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">
-                    Firebase/Firestore
+                <div className="flex justify-between">
+                  <h2>TypeScript</h2>
+                  <img src={typeS} alt="" className="h-6 w-6" />
+                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
+              </div>
+              <div className="space-y-3">
+                <div className="flex justify-between">
+                  <h2>Html5/Css</h2>
+                  <span className="space-x-2 flex">
+                    <img src={html} alt="" className="h-6 w-6" />
+                    <img src={css} alt="" className="h-6 w-6" />
                   </span>
-                  <span className="text-sm font-medium">75%</span>
                 </div>
-                <div className="w-full bg-gray-300 rounded-full h-2.5 ">
-                  <div
-                    className="bg-[#2e50cb] h-2.5 rounded-full"
-                    style={{ width: "70%" }}
-                  />
-                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">
-                    Photoshop/Figma
-                  </span>
-                  <span className="text-sm font-medium">75%</span>
+                <div className="flex justify-between">
+                  <h2>TailwindCss</h2>
+                  <img src={TailwindCss} alt="" className="h-6 w-6" />
                 </div>
-                <div className="w-full bg-gray-300 rounded-full h-2.5 ">
-                  <div
-                    className="bg-[#2e50cb] h-2.5 rounded-full"
-                    style={{ width: "80%" }}
-                  />
-                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium ">
-                    CSS/Tailwind/MUI
-                  </span>
-                  <span className="text-sm font-medium">90%</span>
+                <div className="flex justify-between">
+                  <h2>Git</h2>
+                  <img src={git} alt="" className="h-6 w-6" />
                 </div>
-                <div className="w-full bg-gray-300 rounded-full h-2.5 ">
-                  <div
-                    className="bg-[#2e50cb] h-2.5 rounded-full"
-                    style={{ width: "90%" }}
-                  />
-                </div>
+                <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
             </div>
           </div>
