@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-// import { BsFillPlayCircleFill } from "react-icons/bs";
+import {GoLinkExternal} from 'react-icons/go';
 import { fadeIn } from "../../variant";
-import project from "../assets/portfolio/project.png";
+import project from "../assets/portfolio/yumrun.png";
 import project2 from "../assets/portfolio/project2.png";
 import project3 from "../assets/portfolio/project3.png";
 import project4 from "../assets/portfolio/project4.png";
@@ -11,9 +11,10 @@ const Projects = () => {
     {
       id: 1,
       img: project,
-      name: "The classic veggie delight",
-      text: "The classic vegie is a landing page with functionality where you can search and filter foods by categories and price, It is designed and developed with reactjs and figma.",
-      link: "https://web-gbt-27rd.vercel.app/",
+      name: "YumRun",
+      text: "YumRun is a food delivery website using React and Tailwind CSS to provide users with a seamless and visually appealing experience. The website includes a food search and filtering feature, and a login authentication system",
+      link: "https://yum-run.vercel.app/",
+      git:'https://github.com/oluwabukola2610/yumRunn'
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const Projects = () => {
       name: "Webgpt",
       text: "This project is the landing page clone of Webgpt which i deploy with React",
       link: "https://web-gbt.vercel.app/",
+      git:'https://github.com/oluwabukola2610/Web-gbt'
     },
 
     {
@@ -29,6 +31,7 @@ const Projects = () => {
       text: "This is a fitness landing page designed and deploy with React, Js ,Tailwind and React libries.",
       name: "Elite fitness",
       link: "https://eliteshape.vercel.app/",
+      git:'https://github.com/oluwabukola2610/Eliteshape'
     },
 
     {
@@ -37,6 +40,7 @@ const Projects = () => {
       name: "Wemo Ecommerce",
       text: "Multi page ecommerce Website Buit with Html,Css and Javascript. In this website you can check for products,product details and have access to different pages on the site.",
       link: "https://wemo-ecommerce-12.vercel.app/",
+      git:'https://github.com/oluwabukola2610/wemo-Ecommerce'
     },
   ];
   return (
@@ -83,17 +87,25 @@ const Projects = () => {
                   alt={project.name}
                 />
                 <div>
-                  <h4 className="pb-3 text-center font-bold text-xl md:text-3xl">
+                  <h4 className="pb-3 text-center font-bold text-xl md:text-2xl">
                     {project.name}
                   </h4>
                   <p className="pb-4 text-xs md:text-base md:mx-2  font-sans">
                     {project.text}
                   </p>
                 </div>
-                <div className="flex gap-6 justify-center ">
+                <div className="flex justify-between items-center ">
+                  <a
+                    href={project.git}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Check project demo"
+                  >
+                  <GoLinkExternal size={28} />
+                  </a>
                   <a
                     href={project.link}
-                    className="border-2 px-8 py-1 md:px-12 md:py-2 rounded bg-[#7000FF]/50 hover:bg-[#E8E8FF] hover:text-black"
+                    className="border-2 px-6 py-1 md:py-2 rounded bg-[#7000ff]/50 hover:bg-[#E8E8FF] hover:text-black"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Check project demo"
