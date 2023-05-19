@@ -39,7 +39,7 @@ const Banner = () => {
       child: (
            <BsFillPersonLinesFill size={30} />
       ),
-      href: "/src/assets/resume.pdf",
+      href: "/public/resume.pdf",
       download: true,
     },
   ];
