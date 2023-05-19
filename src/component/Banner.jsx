@@ -39,7 +39,7 @@ const Banner = () => {
       child: (
            <BsFillPersonLinesFill size={30} />
       ),
-      href: "/public/ROHEEMOH_MUDASHIR_Resume_19-05-2023-01-13-54.pdf",
+      href: "/src/assets/resume.pdf",
       download: true,
     },
   ];
