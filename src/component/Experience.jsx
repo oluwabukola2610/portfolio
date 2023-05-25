@@ -20,7 +20,7 @@ const Experience = () => {
       id: 2,
       year: 2022,
       title: "Front-End Developer",
-      place: "Nupat Technologies",
+      place: "Nupat Technologies(bootcamp)",
     },
 
     {
