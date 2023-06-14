@@ -12,9 +12,9 @@ const Projects = () => {
       id: 1,
       img: project3,
       text: "Wallet is a banking web application that allow users to register,login and perform transactions, it was built with React,Node js, Mongo db and frameworks",
-      name: "Wallet Bank", 
-      link: "https://eliteshape.vercel.app/",
-      git: "https://github.com/oluwabukola2610/Eliteshape",
+      name: "Wallet Bank",
+      link: "https://wallet-wb.vercel.app/",
+      git: "https://github.com/oluwabukola2610/Wallet--Bank",
     },
     {
       id: 2,
