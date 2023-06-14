@@ -5,7 +5,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import me from "../assets/HERO2.png";
+import me from "../assets/image-removebg-preview (2).png";
 import TextTransition, { presets } from "react-text-transition";
 import { useEffect, useState } from "react";
 
@@ -58,11 +58,10 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-[85vh] lg:min-h-[75vh] flex items-center lg:max-w-[1640px]"
+      className="min-h-[85vh] flex items-center justify-center lg:max-w-[1640px] mx-auto "
     >
-      <div className="container mx-auto">
-        <div className="flex flex-col gap-y-6 lg:flex-row items-center lg:gap-x-20">
-          <div className="flex-1 text-center lg:text-justify max-w-md space-y-6 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-24 items-center">
+          <div className="px-3 md:px-0 text-center lg:text-justify max-w-md space-y-6 ">
            
             {/* hero text */}
             <motion.h1
@@ -130,14 +129,11 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex  max-w-[320px] lg:max-w-[480px]"
+            className="hidden lg:flex justify-center w-full"
           >
-            <div className="relative border-2 border-accent/50  p-4 rounded-2xl h-max border-solid border-r-[12px]">
               <img src={me} alt="" className="rounded-3xl bg" />
-            </div>
           </motion.div>
         </div>
-      </div>
     </section>
   );
 };

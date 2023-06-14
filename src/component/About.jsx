@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import bg from "../assets/heroo.jpeg";
 import me from "../assets/HERO2.png";
 
 import { fadeIn } from "../../variant";
@@ -8,20 +7,20 @@ const About = () => {
   return (
     <div
       id="about"
-      className="md:py-10 py-3 px-4 flex items-center lg:max-w-[1640px]"
+      className="md:min-h-screen flex items-center justify-center lg:max-w-[1640px] mx-auto "
     >
-      <div className="container mx-auto">
+        <div className="">
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
         </h1>
-        <div className="flex flex-col-reverse gap-y-8  md:grid md:grid-cols-2 md:gap-x-8 lg:gap-x-28 mt-5 items-center  ">
+        <div className="flex flex-col-reverse gap-y-8  lg:flex-row  lg:space-x-24 mt-6  items-center px-3 ">
           {/* about me text */}
           <motion.div
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex flex-col justify-center gap-4 md:gap-6 lg:gap-8 items-center lg:items-start "
+            className="flex flex-col justify-center gap-4 md:gap-6 lg:gap-8 md:max-w-lg items-center lg:items-start "
           >
             <h2 className="capitalize font-primary text-white/70 font-bold text-2xl border-accent border-b-2 p-2 inline">
               About me
@@ -47,7 +46,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]"
           >
-            <img src={bg} alt="" className="rounded-2xl bg " />
+            <img src={me} alt="" className="rounded-2xl bg " />
           </motion.div>
 
           {/* image for mobile view */}
@@ -63,8 +62,8 @@ const About = () => {
             </div>
           </motion.div>
         </div>
+        </div>
       </div>
-    </div>
   );
 };
 

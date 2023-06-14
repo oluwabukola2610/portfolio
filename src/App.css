@@ -51,8 +51,8 @@
 }
 .bg{
   /* clip-path: circle(50% at 50% 50%); */
-    width: 330px;
-  height: 330px;
+    width: 380px;
+  height: 380px;
   object-position:top;
   object-fit: cover;
   outline: none;

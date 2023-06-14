@@ -1,46 +1,45 @@
 import { motion } from "framer-motion";
-import {GoLinkExternal} from 'react-icons/go';
+import { GoLinkExternal } from "react-icons/go";
 import { fadeIn } from "../../variant";
 import project from "../assets/portfolio/yumrun.png";
 import project2 from "../assets/portfolio/project2.png";
-import project3 from "../assets/portfolio/project3.png";
+import project3 from "../assets/portfolio/wallet.png";
 import project4 from "../assets/portfolio/project4.png";
 
 const Projects = () => {
   const works = [
     {
       id: 1,
+      img: project3,
+      text: "Wallet is a banking web application that allow users to register,login and perform transactions, it was built with React,Node js, Mongo db and frameworks",
+      name: "Wallet Bank", 
+      link: "https://eliteshape.vercel.app/",
+      git: "https://github.com/oluwabukola2610/Eliteshape",
+    },
+    {
+      id: 2,
       img: project,
       name: "YumRun",
       text: "YumRun is a food delivery website using React and Tailwind CSS to provide users with a seamless and visually appealing experience. The website includes a food search and filtering feature, and a login authentication system",
       link: "https://yum-run.vercel.app/",
-      git:'https://github.com/oluwabukola2610/yumRunn'
-    },
-    {
-      id: 2,
-      img: project2,
-      name: "Webgpt",
-      text: "This project is the landing page clone of Webgpt which i deploy with React",
-      link: "https://web-gbt.vercel.app/",
-      git:'https://github.com/oluwabukola2610/Web-gbt'
+      git: "https://github.com/oluwabukola2610/yumRunn",
     },
 
     {
       id: 3,
-      img: project3,
-      text: "This is a fitness landing page designed and deploy with React, Js ,Tailwind and React libries.",
-      name: "Elite fitness",
-      link: "https://eliteshape.vercel.app/",
-      git:'https://github.com/oluwabukola2610/Eliteshape'
-    },
-
-    {
-      id: 4,
       img: project4,
       name: "Wemo Ecommerce",
       text: "Multi page ecommerce Website Buit with Html,Css and Javascript. In this website you can check for products,product details and have access to different pages on the site.",
       link: "https://wemo-ecommerce-12.vercel.app/",
-      git:'https://github.com/oluwabukola2610/wemo-Ecommerce'
+      git: "https://github.com/oluwabukola2610/wemo-Ecommerce",
+    },
+    {
+      id: 4,
+      img: project2,
+      name: "Webgpt",
+      text: "This project is the landing page clone of Webgpt which i built with React",
+      link: "https://web-gbt.vercel.app/",
+      git: "https://github.com/oluwabukola2610/Web-gbt",
     },
   ];
   return (
@@ -101,7 +100,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     aria-label="Check project demo"
                   >
-                  <GoLinkExternal size={28} />
+                    <GoLinkExternal size={28} />
                   </a>
                   <a
                     href={project.link}
