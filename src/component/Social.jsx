@@ -40,8 +40,7 @@ const Social = () => {
           Resume <BsFillPersonLinesFill size={25} />
         </>
       ),
-      href: "/src/assets/ROHEEMOH_MUDASHIR_Resume.pdf",
-      download: true,
+      href: "https://drive.google.com/file/d/1Xz1UWyRawVcczyEd_wa2eiYEiB3XILQb/view",
       style: "rounded-br-md",
     },
   ];
@@ -58,9 +57,10 @@ const Social = () => {
             }
           >
             <a
+              target="_blank"
+              rel='noreferrer'
               href={link.href}
-              download={link.id === 4 ? "ROHEEMOH_Resume.pdf" : undefined}
-              className="flex justify-between items-center w-full text-white"
+              className="flex justify-between  items-center w-full text-white"
             >
               {link.child}
             </a>
