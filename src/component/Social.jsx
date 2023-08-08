@@ -23,7 +23,7 @@ const Social = () => {
       ),
       href: "https://github.com/oluwabukola2610",
     },
-    
+
     {
       id: 3,
       child: (
@@ -40,7 +40,7 @@ const Social = () => {
           Resume <BsFillPersonLinesFill size={25} />
         </>
       ),
-      href: "/public/ROHEEMOH_MUDASHIR_Resume_25-05-2023-15-35-46.pdf",
+      href: "/public/ROHEEMOH_MUDASHIR_Resume.pdf",
       download: true,
       style: "rounded-br-md",
     },
@@ -53,15 +53,14 @@ const Social = () => {
             key={link.id}
             className={
               "flex items-center w-28 h-10 px-3 ml-[-74px] hover:ml-[-4px] hover:rounded-md duration-300 bg-black/20 backdrop-blur-2xl" +
-              " " +  link.style
+              " " +
+              link.style
             }
           >
             <a
-              target="_blank"
-              rel='noreferrer'
-              download={link.download}
               href={link.href}
-              className="flex justify-between  items-center w-full text-white"
+              download={link.id === 4 ? "ROHEEMOH_Resume.pdf" : undefined}
+              className="flex justify-between items-center w-full text-white"
             >
               {link.child}
             </a>
