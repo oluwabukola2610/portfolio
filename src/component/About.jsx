@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="md:min-h-screen flex items-center justify-center lg:max-w-[1640px] mx-auto "
     >
-        <div className="">
+      <div className="">
         <h1 className="text-4xl md:text-5xl text-center text-white/80 font-extrabold font-secondary">
           Passion Fuels Purpose!
         </h1>
@@ -26,15 +26,17 @@ const About = () => {
               About me
             </h2>
             <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-sans">
-              A Front-end Web Developer based in Lagos with 1 year of experience
-              in the field. Although I started my career in the field of
-              Chemistry, But my true passion lay in the realm of technology and
-              web development. I design and develop services for customers of
-              all sizes, specializing in creating stylish, modern websites, web
-              services and online stores. My passion is to design digital user
-              experiences through the bold interface and meaningful
-              interactions. I am always looking for new and innovative ways to
-              bring my clients visions to life.
+              I am a Front-end Web Developer located in Lagos, boasting a year's
+              worth of experience in this dynamic field. Despite commencing my
+              career in Chemistry, my heart truly beats for the realm of
+              technology and web development. My professional journey involves
+              crafting and constructing digital solutions for clients spanning
+              various scales, with a particular focus on crafting chic,
+              contemporary websites, web services, and e-commerce platforms. My
+              devotion centers around sculpting digital user experiences
+              characterized by striking interfaces and purposeful engagements.
+              Continuously, I seek novel and inventive approaches to give form
+              to my client's visions, breathing life into their aspirations.
             </p>
           </motion.div>
 
@@ -62,8 +64,8 @@ const About = () => {
             </div>
           </motion.div>
         </div>
-        </div>
       </div>
+    </div>
   );
 };
 

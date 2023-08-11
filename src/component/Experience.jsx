@@ -33,21 +33,21 @@ const Experience = () => {
   const exp = [
     {
       id: 1,
-      year: 2022,
-      title: "Front-End Developer Intern",
-      place: "Nupat Technologies",
-    },
-    {
-      id: 2,
       year: 2023,
       title: "Freelancer",
       place: "Lagos State",
     },
     {
-      id: 3,
+      id: 2,
       year: 2023,
       title: "Software Engineer",
       place: "ALX Software Program",
+    },
+    {
+      id: 3,
+      year: 2022,
+      title: "Front-End Developer Intern",
+      place: "Nupat Technologies",
     },
   ];
   return (
@@ -105,6 +105,7 @@ const Experience = () => {
                   </p>
                   <h2>{data.title}</h2>
                   <p>{data.place}</p>
+                  <p>{data.des}</p>
                   <div className="border-b-[0.5px] border-slate-50/40"></div>
                 </div>
               ))}
