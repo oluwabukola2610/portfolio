@@ -26,17 +26,16 @@ const About = () => {
               About me
             </h2>
             <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-sans">
-              I am a Front-end Web Developer located in Lagos, boasting a year's
+              I am a Front-end Web Developer located in Lagos, boasting a year&rsquo;s 
               worth of experience in this dynamic field. Despite commencing my
-              career in Chemistry, my heart truly beats for the realm of
-              technology and web development. My professional journey involves
-              crafting and constructing digital solutions for clients spanning
-              various scales, with a particular focus on crafting chic,
-              contemporary websites, web services, and e-commerce platforms. My
-              devotion centers around sculpting digital user experiences
-              characterized by striking interfaces and purposeful engagements.
-              Continuously, I seek novel and inventive approaches to give form
-              to my client's visions, breathing life into their aspirations.
+              career in Chemistry, my true passion undeniably lies in the
+              expansive realm of technology and web development.. I specialize
+              in designing and building digital solutions for various clients.
+              This includes creating modern and stylish websites, functional web
+              services, and online stores. My focus is on making digital
+              experiences that are not only visually appealing but also
+              user-friendly. I&rsquo;m always excited to explore innovative ways to
+              turn my client&rsquo;s concepts into actual online realities.
             </p>
           </motion.div>
 
