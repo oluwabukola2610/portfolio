@@ -16,7 +16,7 @@ const Contact = () => {
             <p className="capitalize font-primary text-white/70 font-bold text-xl border-accent border-b-2 p-2 inline">
               Let&#x27;s work together!
             </p>{" "}
-            <img src={contact} alt="" />
+            <img src={contact} loading="lazy" title="contact me" alt="" width="450" height="450"  />
           </motion.div>
           
          {/* form */}

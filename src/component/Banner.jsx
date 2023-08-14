@@ -73,14 +73,14 @@ const Banner = () => {
             >
               Hi, I&#x27;M ROHEEMOH
             </motion.h1>
-            <h1>
+            <h2>
               <TextTransition
                 springConfig={presets.wobbly}
                 className="text-accent font-bold font-primary text-2xl flex justify-center lg:justify-start md:text-4xl lg:tex-2xl"
               >
                 {TEXTS[index % TEXTS.length]}
               </TextTransition>
-            </h1>
+            </h2>
             <motion.p
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -131,7 +131,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex justify-center w-full"
           >
-              <img src={me} alt="" className="rounded-3xl bg" />
+              <img src={me} title="roheemoh" alt="" className="rounded-3xl bg" width="380" height="380"  />
           </motion.div>
         </div>
     </section>

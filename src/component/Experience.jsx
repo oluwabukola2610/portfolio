@@ -129,21 +129,21 @@ const Experience = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>React/Js</h2>
-                  <img src={react} alt="" className="h-6 w-6" />
-                </div>
+                  <img loading="lazy" src={react} title="react" alt=""  width="24" height="24"/>
+                </div> 
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>JavaScript</h2>
-                  <img src={js} alt="" className="h-6 w-6" />
+                  <img loading="lazy" src={js} title="js"  alt="" width="24" height="24"  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>TypeScript</h2>
-                  <img src={typeS} alt="" className="h-6 w-6" />
+                  <img loading="lazy" src={typeS} title="typescript" alt="" width="24" height="24" />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
@@ -151,8 +151,8 @@ const Experience = () => {
                 <div className="flex justify-between">
                   <h2>Html5/Css</h2>
                   <span className="space-x-2 flex">
-                    <img src={html} alt="" className="h-6 w-6" />
-                    <img src={css} alt="" className="h-6 w-6" />
+                    <img loading="lazy" src={html}title="html" alt="" width="24" height="24"  />
+                    <img loading="lazy" src={css} title="css" alt="" width="24" height="24"  />
                   </span>
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
@@ -160,14 +160,14 @@ const Experience = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>TailwindCss</h2>
-                  <img src={TailwindCss} alt="" className="h-6 w-6" />
+                  <img loading="lazy" src={TailwindCss} title="tailwindcss" alt="" width="24" height="24" />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>Git</h2>
-                  <img src={git} alt="" className="h-6 w-6" />
+                  <img loading="lazy" src={git} title="git" alt="" width="24" height="24"  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>

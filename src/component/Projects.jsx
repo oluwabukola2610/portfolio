@@ -84,11 +84,14 @@ const Projects = () => {
                   className="rounded mb-4"
                   src={project.img}
                   alt={project.name}
+                  title={project.name}
+                  loading="lazy"
+                  width="550" height="550"
                 />
                 <div>
-                  <h4 className="pb-3 text-center font-bold text-xl md:text-2xl">
+                  <h3 className="pb-3 text-center font-bold text-xl md:text-2xl">
                     {project.name}
-                  </h4>
+                  </h3>
                   <p className="pb-4 text-xs md:text-base md:mx-2  font-sans">
                     {project.text}
                   </p>
