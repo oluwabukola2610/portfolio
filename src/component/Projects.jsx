@@ -90,6 +90,8 @@ const Projects = () => {
                     <img
                       src={project.img}
                       alt={project.name}
+                      title={project.title}
+                      loading="lazy"
                       className="w-full h-full"
                     />
                   </div>
