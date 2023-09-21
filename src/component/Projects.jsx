@@ -30,6 +30,7 @@ const Projects = () => {
       id: 3,
       img: project3,
       name: "Task Tracker",
+      stack: "React,TailwindCSS, and Typescript ",
       text: "Task Tracker is your ultimate solution for efficient task management with secure authentication. Safeguard your task data and ensure a productive workflow with our robust task management system.",
       link: "https://web-gbt.vercel.app/",
       git: "https://github.com/oluwabukola2610/Web-gbt",
@@ -143,4 +144,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
