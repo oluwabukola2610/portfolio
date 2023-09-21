@@ -1,45 +1,48 @@
 import { motion } from "framer-motion";
-import { GoLinkExternal } from "react-icons/go";
 import { fadeIn } from "../../variant";
-import project from "../assets/portfolio/yumrun.png";
-import project2 from "../assets/portfolio/project2.png";
-import project3 from "../assets/portfolio/wallet.png";
+import project2 from "../assets/portfolio/yumrun.png";
+import project3 from "../assets/portfolio/TaskTracker.png";
+import project1 from "../assets/portfolio/wallet.png";
 import project4 from "../assets/portfolio/project4.png";
 
 const Projects = () => {
   const works = [
     {
       id: 1,
-      img: project3,
-      text: "Wallet is a banking web application that allow users to register,login and perform transactions, it was built with React,Node js, Mongo db and frameworks",
+      img: project1,
+      text: "Wallet Bank is a personal project, and it's an immersive financial experience. As a user, you'll not only find it effortless to register and log in, but you'll also step into a secure digital space. Expect a user-friendly interface, seamless transaction capabilities,",
       name: "Wallet Bank",
+      stack:
+        "React,NodeJs, Emailjs, Framer Motion ,Hooks,Tailwind css, and Daisy Ui",
       link: "https://wallet-wb.vercel.app/",
       git: "https://github.com/oluwabukola2610/Wallet--Bank",
     },
     {
       id: 2,
-      img: project,
+      img: project2,
       name: "YumRun",
-      text: "YumRun is a food delivery website using React and Tailwind CSS to provide users with a seamless and visually appealing experience. The website includes a food search and filtering feature, and a login authentication system",
+      stack: "React,Firebase,Tailwind css, Daisy Ui, and other Libraries",
+      text: " YumRun is your go-to destination for food delivery, offering users a delightful and visually engaging experience. Our website boasts advanced features like food search, filtering, and a robust login authentication system.",
       link: "https://yum-run.vercel.app/",
       git: "https://github.com/oluwabukola2610/yumRunn",
     },
-
     {
       id: 3,
-      img: project4,
-      name: "Wemo Ecommerce",
-      text: "Multi page ecommerce Website Buit with Html,Css and Javascript. In this website you can check for products,product details and have access to different pages on the site.",
-      link: "https://wemo-ecommerce-12.vercel.app/",
-      git: "https://github.com/oluwabukola2610/wemo-Ecommerce",
-    },
-    {
-      id: 4,
-      img: project2,
-      name: "Webgpt",
-      text: "This project is the landing page clone of Webgpt which i built with React",
+      img: project3,
+      name: "Task Tracker",
+      text: "Task Tracker is your ultimate solution for efficient task management with secure authentication. Safeguard your task data and ensure a productive workflow with our robust task management system.",
       link: "https://web-gbt.vercel.app/",
       git: "https://github.com/oluwabukola2610/Web-gbt",
+    },
+
+    {
+      id: 4,
+      img: project4,
+      name: "Wemo Ecommerce",
+      stack: "Html,TailwindCSS, SASS, and JAVASCRIPT ",
+      text: " Wemo Ecommerce is a comprehensive multi-page online shopping platform. Explore our website to discover a wide range of products, access detailed product information, and navigate seamlessly through various sections.",
+      link: "https://wemo-ecommerce-12.vercel.app/",
+      git: "https://github.com/oluwabukola2610/wemo-Ecommerce",
     },
   ];
   return (
@@ -74,46 +77,61 @@ const Projects = () => {
               collaborate and push the boundaries of creativity.
             </motion.p>
           </div>
-          <div className="flex flex-col lg:m-10 gap-6 md:grid md:grid-cols-2 text-black ">
+
+          <div className=" gap-6 grid-cols-1 md:grid md:grid-cols-2 text-black ">
             {works.map((project) => (
               <div
                 key={project.id}
-                className="bg-[#010105]/30 text-white/90 p-4 rounded-xl hover:scale-[1.04]  hover:shadow-accent/30 hover:shadow-lg duration-300 "
+                className="w-[500px] h-[350px] bg-transparent cursor-pointer group perspective"
               >
-                <img
-                  className="rounded mb-4"
-                  src={project.img}
-                  alt={project.name}
-                  title={project.name}
-                  loading="lazy"
-                  width="550" height="550"
-                />
-                <div>
-                  <h3 className="pb-3 text-center font-bold text-xl md:text-2xl">
-                    {project.name}
-                  </h3>
-                  <p className="pb-4 text-xs md:text-base md:mx-2  font-sans">
-                    {project.text}
-                  </p>
-                </div>
-                <div className="flex justify-between items-center ">
-                  <a
-                    href={project.git}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Check project demo"
-                  >
-                    <GoLinkExternal size={28} />
-                  </a>
-                  <a
-                    href={project.link}
-                    className="border-2 px-6 py-1 md:py-2 rounded bg-[#7000ff]/50 hover:bg-[#E8E8FF] hover:text-black"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Check project demo"
-                  >
-                    Demo
-                  </a>
+                <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+                  <div className="absolute backface-Hidden border-2 w-full h-full">
+                    <img
+                      src={project.img}
+                      alt={project.name}
+                      className="w-full h-full"
+                    />
+                  </div>
+                  <div className="absolute backface-Hidden my-rotate-y-180 w-full h-full bg-accent/80 overflow-hidden">
+                    <div className="flex flex-col space-y-6 h-full p-4 pb-8">
+                      <h2>
+                        <span className="font-semibold font-serif">Title:</span>{" "}
+                        {project.name}
+                      </h2>
+                      <h2>
+                        <span className="font-semibold font-serif">
+                          Description:
+                        </span>{" "}
+                        {project.text}
+                      </h2>
+                      <h2>
+                        <span className="font-semibold font-serif">
+                          Tech stack:
+                        </span>{" "}
+                        {project.stack}
+                      </h2>
+                      <div className="flex justify-center px-6 absolute -bottom-10 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-110">
+                        <a
+                          className="border-2 px-6 py-1 rounded mr-1"
+                          href={project.git}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Check project source code"
+                        >
+                          Source code
+                        </a>
+                        <a
+                          href={project.link}
+                          className="border-2 px-6 py-1 rounded"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Check project demo"
+                        >
+                          Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
@@ -125,3 +143,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

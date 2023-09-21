@@ -43,7 +43,7 @@ const Banner = () => {
       download: true,
     },
   ];
-  const TEXTS = ["Front-End Developer", "Web Developer"];
+  const TEXTS = ["Front-End Developer", "Software Developer"];
 
   const [index, setIndex] = useState(0);
 
@@ -75,7 +75,7 @@ const Banner = () => {
             </motion.h1>
             <h2>
               <TextTransition
-                springConfig={presets.wobbly}
+                springConfig={presets.molasses}
                 className="text-accent font-bold font-primary text-2xl flex justify-center lg:justify-start md:text-4xl lg:tex-2xl"
               >
                 {TEXTS[index % TEXTS.length]}

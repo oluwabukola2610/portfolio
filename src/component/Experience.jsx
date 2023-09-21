@@ -34,14 +34,14 @@ const Experience = () => {
     {
       id: 1,
       year: 2023,
-      title: "Freelancer",
-      place: "Lagos State",
+      title: "Front-End Developer",
+      place: "Volt Wolf Limited",
     },
     {
       id: 2,
       year: 2023,
-      title: "Software Engineer",
-      place: "ALX Software Program",
+      title: "Front-End Developer (contract)",
+      place: "SwiftVia",
     },
     {
       id: 3,
@@ -129,21 +129,42 @@ const Experience = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>React/Js</h2>
-                  <img loading="lazy" src={react} title="react" alt=""  width="24" height="24"/>
-                </div> 
+                  <img
+                    loading="lazy"
+                    src={react}
+                    title="react"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
+                </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>JavaScript</h2>
-                  <img loading="lazy" src={js} title="js"  alt="" width="24" height="24"  />
+                  <img
+                    loading="lazy"
+                    src={js}
+                    title="js"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>TypeScript</h2>
-                  <img loading="lazy" src={typeS} title="typescript" alt="" width="24" height="24" />
+                  <img
+                    loading="lazy"
+                    src={typeS}
+                    title="typescript"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
@@ -151,8 +172,22 @@ const Experience = () => {
                 <div className="flex justify-between">
                   <h2>Html5/Css</h2>
                   <span className="space-x-2 flex">
-                    <img loading="lazy" src={html}title="html" alt="" width="24" height="24"  />
-                    <img loading="lazy" src={css} title="css" alt="" width="24" height="24"  />
+                    <img
+                      loading="lazy"
+                      src={html}
+                      title="html"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                    <img
+                      loading="lazy"
+                      src={css}
+                      title="css"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
                   </span>
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
@@ -160,14 +195,28 @@ const Experience = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>TailwindCss</h2>
-                  <img loading="lazy" src={TailwindCss} title="tailwindcss" alt="" width="24" height="24" />
+                  <img
+                    loading="lazy"
+                    src={TailwindCss}
+                    title="tailwindcss"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <h2>Git</h2>
-                  <img loading="lazy" src={git} title="git" alt="" width="24" height="24"  />
+                  <img
+                    loading="lazy"
+                    src={git}
+                    title="git"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
                 </div>
                 <div className="border-b-[0.5px] border-slate-50/40"></div>
               </div>
