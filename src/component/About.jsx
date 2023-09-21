@@ -26,16 +26,16 @@ const About = () => {
               About me
             </h2>
             <p className=" text-lg text-white/70 p-2 lg:p-0 text-justify font-sans">
-              I am a Front-end Web Developer located in Lagos, boasting a year&rsquo;s 
-              worth of experience in this dynamic field. Despite commencing my
-              career in Chemistry, my true passion undeniably lies in the
-              expansive realm of technology and web development.. I specialize
-              in designing and building digital solutions for various clients.
-              This includes creating modern and stylish websites, functional web
-              services, and online stores. My focus is on making digital
-              experiences that are not only visually appealing but also
-              user-friendly. I&rsquo;m always excited to explore innovative ways to
-              turn my client&rsquo;s concepts into actual online realities.
+              I am a Front-end Web Developer located in Lagos, boasting a
+              year&rsquo;s worth of experience in this dynamic field. Despite
+              commencing my career in Chemistry, my true passion undeniably lies
+              in the expansive realm of technology and web development. I
+              specialize in designing and building digital solutions for various
+              clients. This includes creating modern and stylish websites,
+              functional web services, and online stores. My focus is on making
+              digital experiences that are not only visually appealing but also
+              user-friendly. I&rsquo;m always excited to explore innovative ways
+              to turn my client&rsquo;s concepts into actual online realities.
             </p>
           </motion.div>
 
@@ -47,7 +47,14 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="hidden lg:flex relative border-2 w-fit border-accent/50  rounded-2xl h-max border-solid border-r-[12px]"
           >
-            <img src={me} title="roheemoh" alt="" className="rounded-2xl bg "     width="380" height="380"    />
+            <img
+              src={me}
+              title="roheemoh"
+              alt=""
+              className="rounded-2xl bg "
+              width="380"
+              height="380"
+            />
           </motion.div>
 
           {/* image for mobile view */}
@@ -59,7 +66,14 @@ const About = () => {
             className=" lg:hidden  max-w-[320px] lg:max-w-[480px] "
           >
             <div className="relative border-2 border-accent/50  p- rounded-2xl h-max border-solid border-r-[12px]">
-              <img src={me} title="roheemoh" alt="" className="rounded-3xl bg " width="380" height="380"  />
+              <img
+                src={me}
+                title="roheemoh"
+                alt=""
+                className="rounded-3xl bg "
+                width="380"
+                height="380"
+              />
             </div>
           </motion.div>
         </div>
