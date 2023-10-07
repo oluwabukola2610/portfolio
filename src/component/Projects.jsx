@@ -79,11 +79,11 @@ const Projects = () => {
             </motion.p>
           </div>
 
-          <div className=" gap-6 grid-cols-1 md:grid md:grid-cols-2 text-black ">
+          <div className=" gap-6 grid-cols-1 grid md:grid-cols-2 text-black ">
             {works.map((project) => (
               <div
                 key={project.id}
-                className="w-[500px] h-[350px] bg-transparent cursor-pointer group perspective"
+                className="w-full h-[410px] md:w-[500px] md:h-[350px] bg-transparent cursor-pointer group perspective"
               >
                 <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
                   <div className="absolute backface-Hidden border-2 w-full h-full">
