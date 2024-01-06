@@ -48,7 +48,7 @@ const Experience = () => {
             {exp.map((data, key) => (
               <div
                 key={key}
-                className="flex space-x-6 p-4 bg-white rounded-lg items-center"
+                className="flex space-x-6 p-4 bg-white/50 rounded-lg items-center"
               >
                 <div className="rounded-full bg-accent w-12 h-12 flex justify-center items-center">
                   <BsBriefcase />
