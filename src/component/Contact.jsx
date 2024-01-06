@@ -13,7 +13,7 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{once:false, amount:0.3}}           className="flex flex-col items-center lg:items-start">
-            <p className="capitalize font-primary text-white/70 font-bold text-xl border-accent border-b-2 p-2 inline">
+            <p className="capitalize font-primary text-white/70 font-bold text-2xl border-accent border-b-2 p-2 inline">
               Let&#x27;s work together!
             </p>{" "}
             <img src={contact} loading="lazy" title="contact me" alt="" width="450" height="450"  />

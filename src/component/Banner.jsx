@@ -58,7 +58,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-[85vh] flex items-center justify-center lg:max-w-[1640px] mx-auto "
+      className="h-screen flex items-center justify-center lg:max-w-[1640px] mx-auto "
     >
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-24 items-center">
           <div className="px-3 md:px-0 text-center lg:text-justify max-w-md space-y-6 ">

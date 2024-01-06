@@ -54,21 +54,15 @@ const Projects = () => {
       <div className="mx-auto container">
         <div className="space-y-6 md:space-y-10">
           <div className="flex flex-col items-center gap-4">
-            <motion.p
-              variants={fadeIn("left", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="capitalize  font-primary font-bold text-3xl border-accent border-b-2 p-2 inline"
-            >
-              Projects
-            </motion.p>
+            <h2 className="text-3xl md:text-4xl text-center text-white/80 font-extrabold font-secondary">
+             Personal Projects
+            </h2>
             <motion.p
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className=" text-lg text-center text-white/70 p-2 lg:p-0  font-sans"
+              className=" text-lg text-center text-white/70 p-2 lg:p-0 mt-6  font-sans"
             >
               Welcome to my portfolio! Here you&#x27;ll find a showcase of my
               passion and expertise, highlighting the projects that define my
