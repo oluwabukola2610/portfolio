@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variant";
 import project2 from "../assets/portfolio/yumrun.png";
-import project3 from "../assets/portfolio/TaskTracker.png";
+import project3 from "../assets/portfolio/purfi-image.png";
 import project1 from "../assets/portfolio/wallet.png";
 import project4 from "../assets/portfolio/project4.png";
 
@@ -19,6 +19,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      img: project3,
+      name: " Purfi Business",
+      stack: "Next,Redux,Ant design, Tailwind css, Daisy Ui, and other Libraries",
+      link: "https://pursfinance.com/",
+      git: "https://github.com/oluwabukola2610",
+    },
+    {
+      id: 3,
       img: project2,
       name: "YumRun",
       stack: "React,Firebase,Tailwind css, Daisy Ui, and other Libraries",
@@ -26,15 +34,7 @@ const Projects = () => {
       link: "https://yum-run.vercel.app/",
       git: "https://github.com/oluwabukola2610/yumRunn",
     },
-    {
-      id: 3,
-      img: project3,
-      name: "Task Tracker",
-      stack: "React,TailwindCSS, and Typescript ",
-      text: "Task Tracker is your ultimate solution for efficient task management with secure authentication. Safeguard your task data and ensure a productive workflow with our robust task management system.",
-      link: "https://web-gbt.vercel.app/",
-      git: "https://github.com/oluwabukola2610/Web-gbt",
-    },
+   
 
     {
       id: 4,
